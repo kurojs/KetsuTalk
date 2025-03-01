@@ -1,8 +1,13 @@
 
-# KetsuTalk
+# 👾 KetsuTalk 🍜
 
 **KetsuTalk** is an immersive desktop application designed to help you learn Japanese with AI-powered conversations. Combining speech recognition, text-to-speech, and dynamic interactions, **KetsuTalk** uses **Ollama** for AI-driven dialogue and **VoiceVox** for realistic voice synthesis, providing a unique learning experience. Build your Japanese skills with the determination of a virtual sensei at your side.
 
+<p align="center">
+  <img src="https://i.imgur.com/PG2Xpf7.png" width="900"/>
+</p>
+
+You can watch a [video](https://i.imgur.com/p9IM8s4.mp4) to see it in action!
 
 ## 👾 Project Status: Pre-Alpha 🛠️
 
