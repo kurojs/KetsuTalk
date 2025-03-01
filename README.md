@@ -3,6 +3,12 @@
 
 **KetsuTalk** is an immersive desktop application designed to help you learn Japanese with AI-powered conversations. Combining speech recognition, text-to-speech, and dynamic interactions, **KetsuTalk** uses **Ollama** for AI-driven dialogue and **VoiceVox** for realistic voice synthesis, providing a unique learning experience. Build your Japanese skills with the determination of a virtual sensei at your side.
 
+
+## 👾 Project Status: Pre-Alpha 🛠️
+
+This project is currently in **pre-alpha** development. It is a work in progress and not yet feature-complete. The main functionality is in place, but there are still many features to be added and bugs to be fixed. Expect improvements, enhancements, and new features in the future!
+
+
 ## Key Features
 - **Immersive Conversations**: Engage in interactive, AI-powered conversations in Japanese.
 - **Voice Interaction**: Send and receive voice messages to practice listening and speaking skills.
