@@ -14,7 +14,7 @@ VOICEVOX_SPEAKER_ID = 61  # Change this based on the speaker ID in VoiceVox
 TRANSLATION_LIMIT = 500  
 
 translator = Translator(to_lang="en")
-translator_ja_en = Translator(from_lang="ja", to_lang="en")
+translator_ja_es = Translator(from_lang="ja", to_lang="en")
 
 def ollama_response(prompt):
     try:
@@ -85,7 +85,7 @@ def main():
     while True:
         user_input = recognize_speech()
         if user_input:
-            translation = translator_ja_en.translate(user_input)
+            translation = translator_ja_es.translate(user_input)
             print(f"You said (translation): {translation}")
 
             confirm = input("Type 'c' to confirm or 'r' to listen again: ").strip().lower()
@@ -94,7 +94,7 @@ def main():
                 if response:
                     response_parts = split_text(response, TRANSLATION_LIMIT)
                     for part in response_parts:
-                        response_translation = translator_ja_en.translate(part)
+                        response_translation = translator_ja_es.translate(part)
                         print(f"Answer (Japanese): {part}")
                         print(f"Answer (translation): {response_translation}")
 
