@@ -1,6 +1,5 @@
 import speech_recognition as sr
 import subprocess
-import json
 import os
 import requests
 from pydub import AudioSegment
